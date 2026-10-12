@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="720" viewBox="0 0 480 720" role="img" aria-label="Vikinger vs. Nazister poster">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#161619"/><stop offset="0.55" stop-color="#1b1015"/><stop offset="1" stop-color="#221019"/>
+    </linearGradient>
+  </defs>
+  <rect width="480" height="720" fill="url(#bg)"/>
+  <rect x="0" y="340" width="480" height="3" fill="#c42a8a"/>
+  <text x="240" y="308" text-anchor="middle" font-family="'NexaRust','Arial Black',system-ui,sans-serif" font-size="48" font-weight="800" letter-spacing="3" fill="#ffffff">VIKINGER</text>
+  <text x="240" y="372" text-anchor="middle" font-family="'NexaRust','Arial Black',system-ui,sans-serif" font-size="40" font-weight="800" letter-spacing="3" fill="#c42a8a">vs. NAZISTER</text>
+  <text x="240" y="600" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="21" letter-spacing="6" fill="#8a8a8a">TV-SERIE · 2026</text>
+</svg>

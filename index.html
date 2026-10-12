@@ -1,27 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="no">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rixa</title>
 
-<title>Rixa Film</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
-
-<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="icon" type="image/png" sizes="64x64" href="favicon.png">
 </head>
 
 <body>
 
 <header>
-    <img src="logo.png" alt="Rixa Logo" class="logo">
+    <a href="#home" class="logo-anchor"><img src="Rixa Rust PurpleWhite crop.png" alt="Rixa Logo" class="logo"></a>
 
     <nav>
         <a href="#home">Hjem</a>
         <a href="#about">Om oss</a>
+        <a href="#tilbud">Våre tilbud</a>
         <a href="#productions">Produksjoner</a>
         <a href="#contact">Kontakt oss</a>
     </nav>
@@ -29,29 +30,19 @@
 
 <section id="home" class="hero">
 
-    <div class="hero-overlay">
-
-        <h1>Visuell Action. Profesjonelle Stunts.</h1>
-
-        <p>
-            Actiondesign, stuntkoordinering og filmproduksjon for det norske markedet.
-        </p>
-
-        <a href="#productions" class="button">
-            Se Produksjoner
-        </a>
-
+    <div class="hero-copy">
+        <h1>Visuell Action, Profesjonelle Stunts.</h1>
+        <a href="#productions" class="button">Se Produksjoner</a>
     </div>
 
     <div class="video-container">
-
         <iframe
-            src="https://www.youtube.com/embed/h2GBVa4_0YE?autoplay=1&mute=1&loop=1&playlist=h2GBVa4_0YE&controls=0&rel=0"
+            src="https://www.youtube.com/embed/h2GBVa4_0YE?autoplay=1&mute=1&loop=1&playlist=h2GBVa4_0YE&controls=0&showinfo=0&rel=0"
             title="Showreel"
+            frameborder="0"
             allow="autoplay; encrypted-media"
             allowfullscreen>
         </iframe>
-
     </div>
 
 </section>
@@ -63,133 +54,104 @@
     </div>
 
     <p class="intro">
-        Vi i Rixa har spesialisert oss på visuell action med praktisk filmskaping og stuntarbeid.
+        Vi i Rixa har spesialisert oss på visuell action med praktisk filmskaping og stuntarbeid. Vi er en gjeng som alle har et ønske om å forbedre den norske filmbransjen. Vi tilbyr derfor skreddersydde løsninger til ditt prosjekt uansett hva det måtte være.
     </p>
 
     <div class="team-grid">
-
         <div class="team-member">
-
-            <img src="founder1.jpg" alt="Founder">
-
+            <a href="https://www.imdb.com/name/nm11193668/" target="_blank" rel="noopener" class="team-photo-link"><img src="Mikael.jpg" alt="Mikael Aron"></a>
             <h3>Mikael Aron</h3>
-
-            <p>Stuntutøver, Fotograf og Skribent</p>
-
+            <p>Grunnlegger, Stuntutøver, Fotograf og Skribent</p>
         </div>
-
         <div class="team-member">
-
-            <img src="founder2.jpg" alt="Founder">
-
+            <a href="https://www.imdb.com/name/nm9814687/" target="_blank" rel="noopener" class="team-photo-link"><img src="Kenneth.jpg" alt="Kenneth Wolf Haugen"></a>
             <h3>Kenneth Wolf Haugen</h3>
-
-            <p>Stuntkoordinator, Regi og Skribent</p>
-
+            <p>Grunnlegger, Stuntkoordinator, Regissør og Skribent</p>
         </div>
-
         <div class="team-member">
-
-            <img src="founder3.jpg" alt="Founder">
-
+            <a href="https://www.imdb.com/name/nm11167460/" target="_blank" rel="noopener" class="team-photo-link"><img src="Marcus.jpg" alt="Marcus Alexander Bakkenberg"></a>
             <h3>Marcus Alexander Bakkenberg</h3>
-
             <p>Grunnlegger</p>
-
         </div>
-
     </div>
 
-    <h3 class="partners-title">Våre Samarbeidspartnere</h3>
-
+    <h3 class="partners-title">Samarbeidspartnere</h3>
     <div class="partners">
-
-        <div class="partner">
-    Battleblade Productions
-</div>
-        
-        <div class="partner">
-    Filmcity Skarnes
-</div>
-        
-        <div class="partner">
-    Skyline Studios
-</div>
-        
-       <div class="partner">
-    //partner 4
-</div>
-
+        <a class="partner" href="https://www.battlebladeproductions.com/" target="_blank" rel="noopener">
+            <span class="partner-logo"><img src="Battleblade Productions Horizontal White Transparent 2.png" alt="Battleblade Productions"></span>
+            <span class="partner-name">Battleblade Productions</span>
+        </a>
+        <a class="partner" href="https://www.facebook.com/skylinestudios1/" target="_blank" rel="noopener">
+            <span class="partner-logo"><img src="Skyline_white.png" alt="Skyline Studios"></span>
+            <span class="partner-name">Skyline Studios</span>
+        </a>
+        <a class="partner" href="https://www.kringlefilm.no/" target="_blank" rel="noopener">
+            <span class="partner-logo"><img src="kringlefilm.png" alt="Kringle Film"></span>
+            <span class="partner-name">Kringle Film</span>
+        </a>
+        <a class="partner" href="https://www.facebook.com/skamlostforlag/" target="_blank" rel="noopener">
+            <span class="partner-logo"><img src="Skamløst_white.png" alt="Skamløst Nettverk"></span>
+            <span class="partner-name">Skamløst Nettverk</span>
+        </a>
     </div>
 
 </section>
 
-<section id="productions">
-
+<section id="tilbud">
     <div class="section-title">
-        <h2>Produksjoner</h2>
+        <h2>Tilbud</h2>
     </div>
 
-    <div class="production-category">
+    <div class="services">
+        <div class="service">
+            <h3>Film på oppdrag</h3>
+            <p>Produksjon fra A til Å eller bare der du trenger det.</p>
+        </div>
+        <div class="service">
+            <h3>Reklamefilm</h3>
+            <p>Vi hjelper deg med reklame i videoformat til TV-skjermen eller SoMe.</p>
+        </div>
+        <div class="service">
+            <h3>Musikkvideo</h3>
+            <p>Få en visuell musikalsk opplevelse til dine låter.</p>
+        </div>
+        <div class="service">
+            <h3>Eiendomsfilm</h3>
+            <p>Skal du selge bolig? Vi lager en visuell gjennomgang for deg.</p>
+        </div>
+        <div class="service service-goto" data-goto="contact">
+            <h3>Opplæring</h3>
+            <p>Bestill en undervisningstime i dag eller se våre planlagte tilbud her:</p>
+            <a href="https://www.battlebladeproductions.com/workshop" target="_blank" rel="noopener" class="service-link">Se workshop</a>
+        </div>
+    </div>
+</section>
 
+<section id="productions">
+    <div class="section-title"><h2>Produksjoner</h2></div>
+    <div class="production-category">
         <h3>Filmer</h3>
-
         <div class="production-grid">
-
-            <div class="production-card">
-                <h4>Døde Menn går på Ski</h4>
-                <p>Stunts · 2024</p>
-            </div>
-
-            <div class="production-card">
-                <h4>De Gjenvendte</h4>
-                <p>Stunts - Koreografi · 2024</p>
-            </div>
-
+            <div class="production-card"><img class="poster" src="VareSmaLiv.png" alt="Våre Små Liv"><h4>Våre Små Liv</h4><p>2026</p></div>
+            <div class="production-card"><img class="poster" src="Skodde.png" alt="Skodde"><h4>Skodde</h4><p>2024</p></div>
+            <div class="production-card"><img class="poster" src="Gullstøv.png" alt="Gullstøv"><h4>Gullstøv</h4><p>2024</p></div>
+            <div class="production-card"><img class="poster" src="Døde Menn.jpg" alt="Døde Menn går på Ski"><h4>Døde Menn går på Ski</h4><p>2024</p></div>
+            <div class="production-card"><img class="poster" src="De Gjenvendte.jpg" alt="De Gjenvendte"><h4>De Gjenvendte</h4><p>2024</p></div>
+            <div class="production-card"><img class="poster" src="Christmas Cookies Movie Poster.jpg" alt="Christmas Cookies"><h4>Christmas Cookies</h4><p>2023</p></div>
+            <div class="production-card"><img class="poster" src="Busuvatnet1989.png" alt="Busuvatnet 1989"><h4>Busuvatnet 1989</h4><p>2022</p></div>
+            <div class="production-card"><img class="poster" src="Last Man Down.jpg" alt="Last Man Down"><h4>Last Man Down</h4><p>2021</p></div>
+            <div class="production-card"><img class="poster" src="Ulven.png" alt="Ulven"><h4>Ulven</h4><p>2021</p></div>
+            <div class="production-card"><img class="poster" src="Sandbox.png" alt="Sandbox"><h4>Sandbox</h4><p>2019</p></div>
         </div>
-
     </div>
-
     <div class="production-category">
-
         <h3>TV-Serier</h3>
-
         <div class="production-grid">
-
-            <div class="production-card">
-                <h4>Kuppel 16</h4>
-                <p>Stunts · 2022</p>
-            </div>
-
-            <div class="production-card">
-                <h4>Direktøren</h4>
-                <p>Koreografi · 2022</p>
-            </div>
-
+            <div class="production-card"><img class="poster" src="vikinger-vnazister.svg" alt="Vikinger vs. Nazister"><h4>Vikinger vs. Nazister</h4><p>2026</p></div>
+            <div class="production-card"><img class="poster" src="Kuppel16.png" alt="Kuppel 16"><h4>Kuppel 16</h4><p>2022</p></div>
+            <div class="production-card"><img class="poster" src="Direktøren.png" alt="Direktøren"><h4>Direktøren</h4><p>2022</p></div>
         </div>
-
     </div>
-
-    <div class="production-category">
-
-        <h3>Musikkvideoer</h3>
-
-        <div class="production-grid">
-
-            <div class="production-card">
-                <h4>Artist Name</h4>
-                <p>Music Video · 2025</p>
-            </div>
-
-            <div class="production-card">
-                <h4>Artist Name</h4>
-                <p>Music Video · 2024</p>
-            </div>
-
-        </div>
-
-    </div>
-
 </section>
 
 <section id="contact">
@@ -199,28 +161,23 @@
     </div>
 
     <div class="contact-info">
-
         <p>Telefon: +47 9055 7278</p>
-
         <p>E-mail: rixafilm@gmail.com</p>
 
         <div class="socials">
-
-            <a href="#">https://www.instagram.com/rixafilm/</a>
-
-            <a href="#">https://www.youtube.com/@rixafilm</a>
-
+            <a href="https://www.instagram.com/rixafilm/" target="_blank" rel="noopener">Instagram</a>
+            <a href="https://www.youtube.com/@rixafilm" target="_blank" rel="noopener">YouTube</a>
         </div>
-
     </div>
 
 </section>
 
 <footer>
-
     <p>© 2026 Rixa. All Rights Reserved.</p>
-
 </footer>
 
+<script>
+(function(){document.querySelectorAll(".service-goto").forEach(function(el){el.addEventListener("click",function(e){if(e.target.closest("a"))return;var t=document.getElementById(el.getAttribute("data-goto"));if(t)t.scrollIntoView({behavior:"smooth"});});});})();
+</script>
 </body>
 </html>
